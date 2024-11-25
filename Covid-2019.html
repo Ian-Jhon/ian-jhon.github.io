@@ -337,12 +337,12 @@
     <div class="social-list">
 
         <div class="social-item">
-          <a target="_blank" class="social-link" href="https://twitter.com/IanCheung92">
+          <a target="_blank" class="social-link" href="https://www.facebook.com/iancheung.office/">
             <span class="icon">
-              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook"></i>
             </span>
 
-            <span class="label">Twitter</span>
+            <span class="label">脸书</span>
           </a>
         </div>
 
@@ -527,7 +527,7 @@
         <a href="https://www.zhihu.com/people/yi-ge-ren-68-93" title="知乎 → https:&#x2F;&#x2F;www.zhihu.com&#x2F;people&#x2F;yi-ge-ren-68-93" rel="noopener" target="_blank"><i class="fa fa-question-circle fa-fw"></i>知乎</a>
       </span>
       <span class="links-of-author-item">
-        <a href="https://twitter.com/IanCheung92" title="推特 → https:&#x2F;&#x2F;twitter.com&#x2F;IanCheung92" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i>推特</a>
+        <a href="https://github.com/Ian-Jhon" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Ian-Jhon" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
       </span>
       <span class="links-of-author-item">
         <a href="https://www.facebook.com/iancheung.office/" title="脸书 → https:&#x2F;&#x2F;www.facebook.com&#x2F;iancheung.office&#x2F;" rel="noopener" target="_blank"><i class="fab fa-facebook fa-fw"></i>脸书</a>
@@ -1001,6 +1001,26 @@ window.addEventListener('pjax:success', () => {
 
   
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'ab99766dfdc1b525d249',
+      clientSecret: '5cbd22f8cff4fb42166213f9594299af16da1508',
+      repo        : 'Ian-Cosy',
+      owner       : 'Ian-Jhon',
+      admin       : ['Ian-Jhon'],
+      id          : '3d3cd77ed8dd8166cabfdcf4c8d0b929',
+        language: 'zh-CN',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
+
 <script>
   var disqus_config = function() {
     this.page.url = "https://www.malatang.site/Covid-2019.html";
@@ -1020,26 +1040,6 @@ window.addEventListener('pjax:success', () => {
       (d.head || d.body).appendChild(s);
     }
   });
-</script>
-
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
-
-<script>
-NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
-    var gitalk = new Gitalk({
-      clientID    : 'ab99766dfdc1b525d249',
-      clientSecret: '5cbd22f8cff4fb42166213f9594299af16da1508',
-      repo        : 'Ian-Cosy',
-      owner       : 'Ian-Jhon',
-      admin       : ['Ian-Jhon'],
-      id          : '3d3cd77ed8dd8166cabfdcf4c8d0b929',
-        language: 'zh-CN',
-      distractionFreeMode: true
-    });
-    gitalk.render('gitalk-container');
-  }, window.Gitalk);
-});
 </script>
 
     </div>
