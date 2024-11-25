@@ -5,9 +5,9 @@
   <subtitle>科研狗俱乐部</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://www.math-phys.science/"/>
+  <link href="https://www.malatang.site/"/>
   <updated>2020-05-03T23:33:58.000Z</updated>
-  <id>https://www.math-phys.science/</id>
+  <id>https://www.malatang.site/</id>
   
   <author>
     <name>Ian</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>新冠疫情</title>
-    <link href="https://www.math-phys.science/Covid-2019.html"/>
-    <id>https://www.math-phys.science/Covid-2019.html</id>
+    <link href="https://www.malatang.site/Covid-2019.html"/>
+    <id>https://www.malatang.site/Covid-2019.html</id>
     <published>2020-04-29T10:59:08.000Z</published>
     <updated>2020-05-03T23:33:58.000Z</updated>
     
@@ -32,10 +32,10 @@
     </summary>
     
     
-      <category term="Covid-2019" scheme="https://www.math-phys.science/categories/Covid-2019/"/>
+      <category term="Covid-2019" scheme="https://www.malatang.site/categories/Covid-2019/"/>
     
     
-      <category term="Pandemic" scheme="https://www.math-phys.science/tags/Pandemic/"/>
+      <category term="Pandemic" scheme="https://www.malatang.site/tags/Pandemic/"/>
     
   </entry>
   
